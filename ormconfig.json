@@ -1,0 +1,11 @@
+{
+   "type": "mongodb", 
+   "host": "localhost", 
+   "port": 27017, 
+   "database": "botNewsLatter", 
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/Model/Entity/**/*.ts"
+   ]
+}
